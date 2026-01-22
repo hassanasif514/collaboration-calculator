@@ -1,7 +1,12 @@
 #include <iostream>
 using namespace std;
 
-// Functions will be added here later...
+// Basic integer division
+int divide(int x, int y) {
+    if (y == 0) return 0; 
+    return x / y;
+}
+
 
 int main() {
     cout << "Calculator Application" << endl;
