@@ -1,7 +1,10 @@
 #include <iostream>
 using namespace std;
 
-// Functions will be added here later...
+int mul(int x, int y) {
+    return x * y;
+}
+
 
 int main() {
     cout << "Calculator Application" << endl;
